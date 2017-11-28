@@ -1,0 +1,23 @@
+{
+  "name": "list-mini-app-miniapp",
+  "version": "0.0.2",
+  "private": false,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start"
+  },
+  "dependencies": {
+    "react": "16.0.0",
+    "react-native": "0.50.1",
+    "react-native-electrode-bridge": "1.5.9",
+    "react-native-ernmovie-api": "0.0.10",
+    "react-native-ernnavigation-api": "0.0.4"
+  },
+  "ern": {
+    "version": "0.10.1",
+    "moduleType": "ern-miniapp",
+    "moduleName": "ListMiniApp"
+  },
+  "keywords": [
+    "ern-miniapp"
+  ]
+}
